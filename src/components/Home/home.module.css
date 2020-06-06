@@ -1,0 +1,11 @@
+.home {    
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding : 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,33 @@
+.itemcard{
+   margin: 25px 25px;
+   text-align: center;   
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+   transition: transform .2s;
+   background: white;
+}
+
+.itemcard img{
+    height: 170px;
+    width: 170px;
+    border-radius: 10px 10px 0 0;
+    object-fit: fill;
+}
+
+.itemcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+p{
+    margin: 0;
+    margin-top: 5px;    
+}
+
+.itemdetails{
+    padding: 2px 16px;
+    text-decoration: none;
+    color: black;
+}

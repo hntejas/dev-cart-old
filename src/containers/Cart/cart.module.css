@@ -1,0 +1,14 @@
+.cartContainer {
+    color: black;
+    width: 70%;
+    margin: 20px auto;
+    margin-top: 50px;
+}
+
+.cartItemCard{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
