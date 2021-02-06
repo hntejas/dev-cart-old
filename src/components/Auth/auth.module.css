@@ -1,0 +1,65 @@
+.authContainer{
+    margin-top: 60px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    padding: 25px;
+    margin: auto auto;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background: white;
+    margin-top: calc(50vh - 150px);
+}
+
+.loginForm input{
+    background: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    height: 25px;
+}
+
+.loginForm input:focus{
+    outline: none;
+}
+
+.actionButton {
+    margin: 10px;
+    border: none;
+    background: green;
+    border-radius: 22px;
+    width: 70px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.actionButton:hover {
+    transform: scale(1.05);
+}
+
+.actionButton:focus {
+    outline: none;
+}
+
+.loginForm h3 {
+    margin: 10px auto;
+}
+
+.changeAuthType{
+    cursor: pointer;
+    color: green;
+}
+
+.inValidInput {
+    border: 2px solid crimson !important;
+}
+
+.validInput{
+    border: 2px solid green !important;
+}

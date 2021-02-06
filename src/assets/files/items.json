@@ -4,103 +4,141 @@
             "id": 1,
             "name": "Mug",
             "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee"
+            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee",
+            "image": "mug-1.jpg"
         },
         {
             "id": 2,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Headphone",
+            "price": "1200",
+            "description": "Headphones are small speakers that can be worn in or around your ears.",
+            "image": "headphone.jpg"
         },
         {
             "id": 3,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
-        },
-        {
-            "id": 24,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Antivirus",
+            "price": "1000",
+            "description": "Antivirus software is a program or set of programs that are designed to prevent, search for, detect, and remove software viruses, and other malicious software like worms, trojans, adware, and more.",
+            "image": "antivirus-01.jpg"
         },
         {
             "id": 4,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Bagpack",
+            "price": "1500",
+            "description": "A backpack is a cloth sack put on somebody's back. It usually has two straps that go over the shoulders.",
+            "image": "backpack.jpg"
         },
         {
             "id": 5,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Books",
+            "price": "100",
+            "description": "A book is a written or printed work consisting of pages glued or sewn together along one side and bound in covers.",
+            "image": "book.jpg"
         },
         {
             "id": 6,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
-        },
-        {
-            "id": 26,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Bookmark",
+            "price": "1200",
+            "description": "A strip of leather, card, or other material, used to mark one's place in a book.",
+            "image": "Bookmark.jpg"
         },
         {
             "id": 7,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Desktop",
+            "price": "11200",
+            "description": "A desktop computer is a personal computer that fits on or under a desk. It has a monitor or another display, keyboard, mouse, and either a horizontal or vertical (tower) form factor. Unlike a laptop, which is portable, a desktop computer is meant to stay at one location.",
+            "image": "desktop.jpg"
         },
         {
             "id": 8,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Projector",
+            "price": "11200",
+            "description": "Digital Light Processing is a set of chipsets based on optical micro-electro-mechanical technology that uses a digital micromirror device. It was originally developed in 1987 by Larry Hornbeck of Texas Instruments.",
+            "image": "projector.jpg"
         },
         {
             "id": 9,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Pen",
+            "price": "100",
+            "description": "Digital Light Processing is a set of chipsets based on optical micro-electro-mechanical technology that uses a digital micromirror device. It was originally developed in 1987 by Larry Hornbeck of Texas Instruments.",
+            "image": "fountainPen.jpg"
         },
         {
             "id": 10,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "HDD",
+            "price": "11200",
+            "description": "An external hard drive is a portable storage device that can be attached to a computer through a USB or FireWire connection, or wirelessly. External hard drives typically have high storage capacities and are often used to back up computers or serve as a network drive.",
+            "image": "hdd.jpg"
         },
         {
             "id": 11,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Keyboard",
+            "price": "1100",
+            "description": "A computer keyboard is an input device used to enter characters and functions into the computer system by pressing buttons, or keys. It is the primary device used to enter text. A keyboard typically contains keys for individual letters, numbers and special characters, as well as keys for specific functions.",
+            "image": "keyboard.jpg"
         },
         {
             "id": 12,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Laptop Cooler",
+            "price": "2000",
+            "description": "A laptop/notebook cooler, cooler pad or chill mat is an accessory for laptop computers that helps reduce their operating temperature, which is normally used when the laptop is unable to sufficiently cool itself. ... A cooling pad may house active or passive cooling methods and rests beneath the laptop.",
+            "image": "laptopCooler.jpg"
         },
         {
             "id": 13,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Marker Board",
+            "price": "3000",
+            "description": "A whiteboard (also known by the terms marker board, dry-erase board, wipe board, dry-wipe board, and pen-board) is a glossy, usually white surface for making nonpermanent markings (an evolved version of the blackboard).",
+            "image": "laptopCooler.jpg"
         },
         {
             "id": 14,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Wireless Speaker",
+            "price": "1500",
+            "description": "Wireless speakers are loudspeakers which receive audio signals using radio frequency (RF) waves rather than over audio cables.",
+            "image": "wirelessSpeaker.jpg"
         },
         {
             "id": 15,
-            "name": "Mug",
-            "price": "200",
-            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, soup, or tea. Mugs usually have handles[1] and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 8-12 US fluid ounces (350 ml) of liquid.[2] A mug is a less formal style of drink container and is not usually used in formal place settings."
+            "name": "Voice Assistant",
+            "price": "2500",
+            "description": "A voice assistant is a digital assistant that uses voice recognition, speech synthesis, and natural language processing (NLP) to provide a service through a particular application.",
+            "image": "voiceAssistant.jpg"
+        },
+        {
+            "id": 16,
+            "name": "UPS",
+            "price": "7500",
+            "description": "An uninterruptible power supply (UPS), also known as a battery backup, provides backup power when your regular power source fails or voltage drops to an unacceptable level. A UPS allows for the safe, orderly shutdown of a computer and connected equipment.",
+            "image": "ups.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Spike Buster",
+            "price": "500",
+            "description": "A spike buster is electrical equipment used to protect the electronic devices connected to it from electrical spikes. The spike busters we manufacture are very efficient in energy saving.",
+            "image": "spikebuster.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Router",
+            "price": "900",
+            "description": "A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. Data sent through the internet, such as a web page or email, is in the form of data packets.",
+            "image": "router.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Projector Pen",
+            "price": "900",
+            "description": "A laser pointer or laser pen is a small handheld device with a power source (usually a battery) and a laser diode emitting a very narrow coherent low-powered laser beam of visible light, intended to be used to highlight something of interest by illuminating it with a small bright spot of colored light.",
+            "image": "projectorPen.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Mouse",
+            "price": "600",
+            "description": "A mouse is a device that controls the movement of the cursor or pointer on a display screen. A mouse is a small object you can roll along a hard, flat surface.",
+            "image": "mouse.jpg"
         }
     ]
 }

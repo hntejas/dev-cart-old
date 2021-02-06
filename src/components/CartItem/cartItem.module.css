@@ -1,0 +1,52 @@
+.cartItemCard{
+    display: flex;
+    border-bottom: 1px solid grey;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cartItemCard > * {
+    flex-basis: 20%;
+}
+
+.cartImage {
+    margin: 10px;
+    height: 90%;
+    width: 15%;
+}
+
+.deleteItem{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: rgb(250, 58, 58);
+    transform: scale(1.2);
+    transition: ease-out 0.1s;
+    width: max-content;
+    padding: 0;
+    font-size: 15px;
+}
+
+.deleteItem:hover{
+    transform: scale(1.5);
+}
+
+.deleteItem:focus {
+    outline: none;
+}
+
+@media (max-width: 500px){
+    .cartItemCard{
+        flex-direction: column;
+    }
+
+    .cartImage{
+        width: 90%;
+    }
+
+    h4, h3{
+        margin: 5px;
+    }
+}

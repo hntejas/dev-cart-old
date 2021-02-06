@@ -65,3 +65,28 @@
     border: none;
     outline: none;
 }
+
+@media (max-width: 500px){
+    .itemContainer{
+        flex-direction: column;
+        width: 95%;
+    }
+    .itemDetailsContainer{
+        width: 90%;
+        margin-top: 10px;
+        padding: 0;
+    }
+    .itemImageContainer{
+        width: 90%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .itemImageContainer img {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .itemTitle{
+        line-height: 1.5em;
+        margin: 5px;
+    }
+}

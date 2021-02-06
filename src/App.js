@@ -8,9 +8,16 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Item from "./containers/Item/Item";
 import Cart from "./containers/Cart/Cart";
+import Auth from "./components/Auth/Auth";
+import Checkout from "./containers/Checkout/Checkout";
 import { store } from "./store/store";
 
 class App extends React.Component {
+  renderWithAuthCheck = (ComponentToRender) => {
+    const isUserLoggedIn = store.getState().user.isLoggedIn;
+    console.log(store.getState())
+    return !!isUserLoggedIn ? <ComponentToRender /> : <Redirect to="/login" />;
+  };
   render() {
     return (
       <div className="App">
@@ -18,9 +25,27 @@ class App extends React.Component {
           <BrowserRouter>
             <Header />
             <Switch>
-              <Route path="/shopping" exact component={Home} />
-              <Route path="/shopping/item/:id" exact component={Item} />
-              <Route path="/shopping/cart" exact component={Cart} />
+              <Route path="/login" exact component={Auth} />
+              <Route
+                path="/shopping"
+                exact
+                render={() => this.renderWithAuthCheck(Home)}
+              />
+              <Route
+                path="/shopping/item/:id"
+                exact
+                render={() => this.renderWithAuthCheck(Item)}
+              />
+              <Route
+                path="/shopping/cart"
+                exact
+                render={() => this.renderWithAuthCheck(Cart)}
+              />
+              <Route
+                path="/checkout"
+                exact
+                render={() => this.renderWithAuthCheck(Checkout)}
+              />
               <Redirect to="/shopping" />
             </Switch>
           </BrowserRouter>

@@ -1,0 +1,117 @@
+.paymentEditLayout{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;    
+}
+
+.backdrop{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background: rgb(105, 104, 104);
+    z-index: 1;
+}
+
+.paymentEditForm {
+    position: absolute;    
+    top: 10%;
+    height: 50%;
+    width: 45%;
+    max-width: 330px;
+    padding-top: 10px;
+    left: calc(50% - 165px);
+    margin: 0 auto;
+    background: white;
+    z-index: 2;
+    opacity: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.paymentEditForm input{
+    width: 80%;
+    margin: 10px auto;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.paymentEditForm input:focus{
+    outline: none;
+}
+
+.paymentEditForm h3 {
+    margin: 0;
+}
+
+.inValidInput {
+    border: 2px solid crimson !important;
+}
+
+.validInput{
+    border: 2px solid green !important;
+}
+
+.cardPin{
+    width: 20% !important;
+    margin-left: 9.2% !important;
+}
+
+.closeBtn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background: none;
+    border-radius: 50%;
+    font-weight: 1000;
+    color: crimson;
+}
+
+.actionButton {
+    margin: 10px;
+    border: none;
+    background: green;
+    border-radius: 22px;
+    width: 70px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s ease;
+    margin: 10px auto;
+}
+
+.actionButton:hover{
+    background: rgb(0, 99, 0);
+}
+
+.actionButton:focus {
+    outline: none;
+}
+
+@media (max-width: 800px){
+    .paymentEditForm{
+        width: 70%;
+        left: calc(50% - 165px);
+    }
+}
+
+@media (max-width: 500px){
+    .paymentEditForm{
+        width: 90%;
+        left: calc(50% - 165px)
+    }
+}
+
+
+@media (max-width: 370px){
+    .paymentEditForm{
+        width: 90%;
+        left: 5%;
+    }
+}

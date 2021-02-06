@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import classes from "./header.module.css";
 
-import CartIcon from "../UI/CartIcon/CartIcon";
+// import CartIcon from "../UI/CartIcon/CartIcon";
+import { TiShoppingCart as CartIcon } from "react-icons/ti";
 
 export default class Header extends Component {
   render() {
@@ -24,7 +25,7 @@ export default class Header extends Component {
         >
           <div className={classes.cart}>
             <CartIcon />
-            Cart
+            <span> Cart</span>
           </div>
         </Link>
       </div>

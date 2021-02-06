@@ -1,0 +1,37 @@
+.checkoutLayout{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.submitButtonWrapper{
+    flex-basis: 100%;
+    margin-top: 25px;
+}
+
+.submitButton {
+    display: block;
+    margin: 25px auto;
+    height: 35px;
+    width: 100px;
+    font-weight: 200;
+    border: none;
+    border-radius: 20px;
+    background: #3e4be4;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: ease-out 0.1s;
+}
+
+.submitButton:hover {
+    transform: scale(1.05);
+}
+
+.submitButton:focus {
+    border: none;
+    outline: none;
+}

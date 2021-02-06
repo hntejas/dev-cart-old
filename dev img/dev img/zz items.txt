@@ -1,0 +1,42 @@
+desktop=A desktop computer is a personal computer that fits on or under a desk. It has a monitor or another display, keyboard, mouse, and either a horizontal or vertical (tower) form factor. Unlike a laptop, which is portable, a desktop computer is meant to stay at one location.
+
+keyboard=A computer keyboard is an input device used to enter characters and functions into the computer system by pressing buttons, or keys. It is the primary device used to enter text. A keyboard typically contains keys for individual letters, numbers and special characters, as well as keys for specific functions.
+
+mouse=A mouse is a device that controls the movement of the cursor or pointer on a display screen. A mouse is a small object you can roll along a hard, flat surface.
+
+antivirus=Antivirus software is a program or set of programs that are designed to prevent, search for, detect, and remove software viruses, and other malicious software like worms, trojans, adware, and more.
+
+external hard disk=An external hard drive is a portable storage device that can be attached to a computer through a USB or FireWire connection, or wirelessly. External hard drives typically have high storage capacities and are often used to back up computers or serve as a network drive.
+
+router=A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. Data sent through the internet, such as a web page or email, is in the form of data packets.
+
+ups=An uninterruptible power supply (UPS), also known as a battery backup, provides backup power when your regular power source fails or voltage drops to an unacceptable level. A UPS allows for the safe, orderly shutdown of a computer and connected equipment.
+
+spike busters=A spike buster is electrical equipment used to protect the electronic devices connected to it from electrical spikes. The spike busters we manufacture are very efficient in energy saving.
+
+dlp=Digital Light Processing is a set of chipsets based on optical micro-electro-mechanical technology that uses a digital micromirror device. It was originally developed in 1987 by Larry Hornbeck of Texas Instruments.
+
+projetor pen=A laser pointer or laser pen is a small handheld device with a power source (usually a battery) and a laser diode emitting a very narrow coherent low-powered laser beam of visible light, intended to be used to highlight something of interest by illuminating it with a small bright spot of colored light.
+
+laptop cooler=A laptop/notebook cooler, cooler pad or chill mat is an accessory for laptop computers that helps reduce their operating temperature, which is normally used when the laptop is unable to sufficiently cool itself. ... A cooling pad may house active or passive cooling methods and rests beneath the laptop.
+
+headphones=Headphones are small speakers that can be worn in or around your ears. it contains transducers that convert an audio signal into sound waves.
+
+voice assistant=A voice assistant is a digital assistant that uses voice recognition, speech synthesis, and natural language processing (NLP) to provide a service through a particular application.
+
+wireless speakers=Wireless speakers are loudspeakers which receive audio signals using radio frequency (RF) waves rather than over audio cables.
+
+book=A book is a written or printed work consisting of pages glued or sewn together along one side and bound in covers.
+
+pen=it is an instrument for writing or drawing with ink, typically consisting of a metal nib or ball, or a nylon tip, fitted into a metal or plastic holder.
+
+bookmarks=A strip of leather, card, or other material, used to mark one's place in a book.
+
+marker board=A whiteboard (also known by the terms marker board, dry-erase board, wipe board, dry-wipe board, and pen-board) is a glossy, usually white surface for making nonpermanent markings (an evolved version of the blackboard).
+
+backpack=A backpack is a cloth sack put on somebody's back. It usually has two straps that go over the shoulders.
+
+
+
+
+

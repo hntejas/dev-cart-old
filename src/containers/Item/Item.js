@@ -5,7 +5,7 @@ import classes from "./item.module.css";
 import ItemQuantity from "../../components/UI/ItemQuantity/ItemQuantity";
 import { loadItems } from "../../store/actions/items";
 import { addToCart } from "../../store/actions/cart";
-import imgUrl from "../../assets/images/mug-1.jpg";
+import { withRouter } from "react-router-dom";
 
 class Item extends Component {
   state = {
@@ -60,11 +60,13 @@ class Item extends Component {
 
   render() {
     let itemPage;
+    let images = require.context("../../assets/images", true);
+    const img = this.state.item.image && images("./" + this.state.item.image);
     if (this.state.item) {
       itemPage = (
         <div className={classes.itemContainer}>
           <div className={classes.itemImageContainer}>
-            <img src={imgUrl} alt="Mug"></img>
+            <img src={img} alt="Mug"></img>
           </div>
           <div className={classes.itemDetailsContainer}>
             <h2 className={classes.itemTitle}>{this.state.item.name}</h2>
@@ -108,4 +110,4 @@ const mapDispatchToActions = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToActions)(Item);
+export default withRouter(connect(mapStateToProps, mapDispatchToActions)(Item));
